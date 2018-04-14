@@ -44,5 +44,14 @@ RRRR
 OOOOOOOOOOO
 OOOO
 
+Scenario: Morning
+When the time is 10:20:00
+Then the clock should look like
+Y
+RRRR
+RRRR
+OOOOOOOOOOO
+OOOO
+
 
 
